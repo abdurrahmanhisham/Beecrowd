@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<Stdio.h>
 int main()
 {
     int d,m,y;
@@ -6,6 +6,5 @@ int main()
     printf("%.2d/%.2d/%.2d\n",m,d,y);
     printf("%.2d/%.2d/%.2d\n",y,m,d);
     printf("%.2d-%.2d-%.2d\n",d,m,y);
-
     return 0;
 }
